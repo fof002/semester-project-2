@@ -1,0 +1,10 @@
+.main-color {
+  background-color: #88bdbc;
+}
+.nav-logo {
+  padding: 0.2em;
+  border-radius: 5px;
+}
+.nav-logo:hover {
+  background: #fff;
+}
