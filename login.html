@@ -31,7 +31,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="index.html"
-            ><img src="img/Logo2.png" class="nav-logo" alt="" height="40"
+            ><img
+              src="img/Logo2.png"
+              class="object-fit-contain"
+              alt=""
+              height="40"
           /></a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -69,8 +73,35 @@
       </nav>
     </header>
     <main>
-      <div class="d-flex justify-content-center align-items-center mt-5">
-        <img src="img/Logo2.png" alt="Logo The Auction House" />
+      <div class="mt-4" style="width: min(30em, 90vw); margin: 0 auto">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              Must be a valid @stud.noroff.no email.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </main>
     <script
