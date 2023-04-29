@@ -85,7 +85,7 @@
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
             />
-            <div id="emailHelp" class="form-text">
+            <div id="registerEmailHelp" class="form-text">
               Must be a valid @stud.noroff.no email.
             </div>
           </div>
@@ -100,51 +100,91 @@
             />
           </div>
           <div class="d-flex gap-2">
-            <button type="submit" class="btn btn-outline-dark main-color">Submit</button>
-            <button type="button" class="btn btn-outline-dark main-color" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register new user</button>
+            <button type="submit" class="btn btn-outline-dark main-color">
+              Submit
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-dark main-color"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
+            >
+              Register new user
+            </button>
           </div>
         </form>
       </div>
-      
     </main>
-   
-    <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top main-color"
-    >
-      <div class="col-md-4 d-flex align-items-center">
-    
-        <span class="mb-3 mb-md-0 text-body-secondary"
-          >© 2023 The Auction House</span
-        >
-      </div>
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#">Twitter</svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#">Instagram</use></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#">Facebook</use></svg></a></li>
+    <footer class="py-3 my-4 mt-5">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Safety</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Bidding</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">About</a>
+        </li>
       </ul>
+      <p class="text-center text-muted">© 2023 The Auction House</p>
     </footer>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Register new user</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Register new user
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="modal-body">
             <form>
               <div class="mb-3">
                 <label for="username" class="col-form-label">Username:</label>
-                <input type="text" class="form-control" id="username">
+                <input type="text" class="form-control" id="username" />
+                <div id="registerEmailHelp" class="form-text">
+                  Must be a valid @stud.noroff.no email.
+                </div>
               </div>
               <div class="mb-3">
                 <label for="password" class="col-form-label">Password:</label>
-                <input type="password" class="form-control" id="password">
+                <input type="password" class="form-control" id="password" />
+                <div id="registerEmailHelp" class="form-text">
+                  Must be a valid @stud.noroff.no email.
+                </div>
               </div>
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-dark main-color" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-outline-dark main-color">Register user</button>
+            <button
+              type="button"
+              class="btn btn-outline-dark main-color"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-outline-dark main-color">
+              Register user
+            </button>
           </div>
         </div>
       </div>
