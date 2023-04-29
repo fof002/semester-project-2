@@ -3,10 +3,11 @@
     "bootstrap": "^5.2.0"
   },
   "scripts": {
-    "build": "sass src/scss:dist/css",
-    "watch": "sass --watch scss/scss:dist/css"
+    "build": "sass scss/style.scss:dist/style.css",
+    "watch": "sass --watch scss/style.scss:dist/style.css & live-server"
   },
   "devDependencies": {
+    "live-server": "^1.2.2",
     "sass": "^1.62.0"
   }
 }
